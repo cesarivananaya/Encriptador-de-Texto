@@ -10,5 +10,23 @@
 <body>
     <h1 class="titulo">Codigo Encriptado</h1>
     
+    <main class="main">
+        <section class="form box">
+            <form action="">
+                <label for="input-texto"> Solo letras minusculas, sin acento</label>
+                <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingresa el texto">
+                <input class="btn" type="submit" value="Encriptar" id="btn-encriptar">
+                <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar">
+            </form>
+        </section>
+
+        <section class="msg box">
+            <h2>Mensaje Encriptado: </h2>
+            <input class="text-input" type="text" id="msg"></input>
+            <input class="btn" type="submit" value="Copiar" id="btn-copy">
+        </section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
